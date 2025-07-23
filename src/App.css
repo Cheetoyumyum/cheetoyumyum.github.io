@@ -81,8 +81,11 @@ body {
 .contact-links { display: flex; justify-content: center; gap: 1.8rem; }
 .contact-links a { color: #a9d1ff; font-size: 1.9rem; transition: color 0.3s ease, transform 0.3s ease; }
 .contact-links a:hover { color: #ffffff; transform: scale(1.15); }
-.skill-set { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.5rem; }
-.skill-set span { background: rgba(255, 255, 255, 0.08); padding: 0.4rem 0.8rem; border-radius: 12px; font-size: 0.85rem; color: #dde9f9; }
+.skills-category { margin-bottom: 1.5rem;}
+.skills-category h4 {  font-size: 0.9rem; font-weight: 400; color: #a9d1ff; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.75rem; text-align: left; }
+.skill-set { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.skill-tag, .skill-set span { display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 255, 255, 0.08); padding: 0.4rem 0.8rem; border-radius: 12px; font-size: 0.9rem; color: #dde9f9; }
+.skill-tag svg { font-size: 1.1em; color: #a9d1ff; opacity: 0.8; }
 .experience-item { margin-bottom: 1.5rem; }
 .experience-item:last-child { margin-bottom: 0; }
 
