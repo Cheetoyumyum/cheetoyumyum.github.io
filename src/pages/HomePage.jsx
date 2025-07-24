@@ -122,7 +122,7 @@ export default function HomePage() {
                   <div className="timeline-content">
                     <h3>IT Specialist</h3>
                     <h4>Sundance College | Jun 2024 - Present</h4>
-                    <p>Administer Microsoft 365 for 200+ user accounts, ensuring 99.9% service uptime through proactive management of Entra ID, Intune, and Exchange.</p>
+                    <p>Administer Microsoft 365 for 3000+ user accounts, ensuring 99.9% service uptime through proactive management of Entra ID, Intune, and Exchange.</p>
                   </div>
                 </div>
                 
@@ -149,7 +149,7 @@ export default function HomePage() {
                   <div className="timeline-content">
                     <h3>Software Developer (CO-OP)</h3>
                     <h4>Manitoba Health | Jan 2022 - Aug 2022</h4>
-                    <p>Automated manual payroll processes, saving over $150,000 annually and boosting staff efficiency by 73% using M365 and Power Platform.</p>
+                    <p>Automated manual payroll processes, saving over $150,000 annually and boosting staff efficiency by 73% using M365, SharePoint and Vue.</p>
                   </div>
                 </div>
 
