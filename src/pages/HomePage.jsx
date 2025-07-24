@@ -71,12 +71,10 @@ export default function HomePage() {
                   <span>Vue</span>
                   <span>jQuery</span>
                   <span>Python</span>
-                  <span>Flask</span>
                   <span>Java</span>
                   <span>Kotlin</span>
                   <span>C# (.NET)</span>
                   <span>PHP</span>
-                  <span>Power Fx</span>
                 </div>
               </div>
 
@@ -103,14 +101,7 @@ export default function HomePage() {
                   <span>Indexing</span>
                 </div>
               </div>
-
-              <div className="skills-category">
-                <h3>Cybersecurity</h3>
-                <div className="skill-set">
-                  <span>Kali Linux</span>
-                </div>
-              </div>
-
+              
             </div>
           </div>
           <div className="glass-tile experience">
