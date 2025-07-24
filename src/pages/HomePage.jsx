@@ -23,6 +23,9 @@ export default function HomePage() {
                 <li>Cloud Architecture & M365 Admin</li>
                 <li>Full-Stack Application Development</li>
                 <li>Process Automation & Optimization</li>
+                <li>Test-Driven Development</li>
+                <li>Customer-Focused Solutioning</li>
+                <li>Team Leadership & Training</li>
               </ul>
             </div>
             <div className="education">
@@ -45,27 +48,72 @@ export default function HomePage() {
           <div className="glass-tile skills">
             <h2>Tech Stack</h2>
             <div className="tile-content">
-              <h3>Cloud & Network</h3>
-              <div className="skill-set">
-                <span>Azure</span> <span>Entra ID</span> <span>Microsoft 365</span>
-                <span>Intune</span> <span>Windows Server</span> <span>PowerShell</span>
+
+              <div className="skills-category">
+                <h3>Cloud & Infrastructure</h3>
+                <div className="skill-set">
+                  <span>Azure</span>
+                  <span>Active Directory</span>
+                  <span>Microsoft 365</span>
+                  <span>Windows Server</span>
+                  <span>Linux</span>
+                  <span>VMware</span>
+                </div>
               </div>
-              <h3>Programming</h3>
-              <div className="skill-set">
-                <span>JavaScript</span> <span>React</span> <span>Python</span>
-                <span>Java</span> <span>C# (.NET)</span>
+
+              <div className="skills-category">
+                <h3>Programming & Frameworks</h3>
+                <div className="skill-set">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Vue</span>
+                  <span>jQuery</span>
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>Java</span>
+                  <span>Kotlin</span>
+                  <span>C# (.NET)</span>
+                  <span>PHP</span>
+                  <span>Power Fx</span>
+                </div>
               </div>
-              <h3>Automation & DevOps</h3>
-              <div className="skill-set">
-                <span>Docker</span> <span>Kubernetes</span> <span>CI/CD</span>
+
+              <div className="skills-category">
+                <h3>DevOps & Tools</h3>
+                <div className="skill-set">
+                  <span>Git</span>
+                  <span>Docker</span>
+                  <span>Kubernetes</span>
+                  <span>CI/CD</span>
+                  <span>Apache</span>
+                  <span>PowerShell</span>
+                  <span>Vite</span>
+                  <span>Power Apps</span>
+                </div>
               </div>
-              <h3>Database</h3>
-              <div className="skill-set">
-                <span>Azure SQL</span> <span>MongoDB</span> <span>Indexing</span>
+
+              <div className="skills-category">
+                <h3>Databases</h3>
+                <div className="skill-set">
+                  <span>Azure SQL</span>
+                  <span>Oracle</span>
+                  <span>MongoDB</span>
+                  <span>Indexing</span>
+                </div>
               </div>
+
+              <div className="skills-category">
+                <h3>Cybersecurity</h3>
+                <div className="skill-set">
+                  <span>Kali Linux</span>
+                </div>
+              </div>
+
             </div>
           </div>
-                   <div className="glass-tile experience">
+          <div className="glass-tile experience">
             <h2>Work Experience</h2>
             <div className="tile-content">
               <div className="experience-timeline">
@@ -77,20 +125,31 @@ export default function HomePage() {
                     <p>Administer Microsoft 365 for 200+ user accounts, ensuring 99.9% service uptime through proactive management of Entra ID, Intune, and Exchange.</p>
                   </div>
                 </div>
-
-                <div className="timeline-item">
-                  <div className="timeline-content">
-                    <h3>Software Developer (CO-OP)</h3>
-                    <h4>Manitoba Health | Jan 2022 - Aug 2022</h4>
-                    <p>Automated manual payroll processes, saving over $150,000 annually and boosting staff efficiency by 73% using M365 and Power Platform.</p>
-                  </div>
-                </div>
-
+                
                 <div className="timeline-item">
                   <div className="timeline-content">
                     <h3>Full-Stack Developer</h3>
                     <h4>Freelance | Oct 2023 - Present</h4>
                     <p>Engineered and deployed scalable MERN stack applications, supporting over 1,000 active users with real-time data tracking features.</p>
+                  </div>
+                </div>
+
+                <div className="timeline-item">
+                  <div className="timeline-content">
+                    <h3>Department Manager / Team Lead</h3>
+                    <h4>Visions Electronics | Nov 2015 - Jun 2024</h4>
+                    <p>
+                      Led a high-performing, client-facing team, driving profitability to rank #2 company-wide. 
+                      Specialized in technical solutioning, team training, and fostering a culture of continuous improvement.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="timeline-item">
+                  <div className="timeline-content">
+                    <h3>Software Developer (CO-OP)</h3>
+                    <h4>Manitoba Health | Jan 2022 - Aug 2022</h4>
+                    <p>Automated manual payroll processes, saving over $150,000 annually and boosting staff efficiency by 73% using M365 and Power Platform.</p>
                   </div>
                 </div>
 
